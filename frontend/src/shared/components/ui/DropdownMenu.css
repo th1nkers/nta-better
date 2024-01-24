@@ -1,0 +1,80 @@
+.dropdown-menu-section{
+    color: gray;
+    z-index: 100;
+    background-color: white;
+    /* background-color: var(--blue-background); */
+    position: absolute;
+    top: 5.4rem;
+    left: 44.6%;
+    width: 45.9vw;
+    /* max-height: 16rem; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.218);
+    outline: 3px solid var(--blue-background);
+    /* overflow-y: auto; */
+}
+
+
+.dropdown-menu-section>a{
+    color: unset;
+    font-weight: unset;
+    text-decoration: unset;
+    padding: 2px;
+}
+
+.dropdown-menu-section>a:hover{
+    text-decoration:  underline;
+    color: black;
+}
+
+.sub1{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    cursor: default;
+}
+
+.sub1>h4{
+    height: 15%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.sub1-ul{
+    height: 70%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .3vw;
+    padding-right: .8vw;
+    overflow: auto;
+}
+
+.sub1-li{
+    padding: 0;
+    margin: 0;
+}
+
+.sub1-li>a{
+    color: unset;
+    text-decoration: unset;
+}
+
+.sub1-li>a:hover{
+    text-decoration: underline;
+    color: black;
+}

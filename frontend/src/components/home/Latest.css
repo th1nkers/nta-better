@@ -1,0 +1,99 @@
+.ImpNTA {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.tap-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin: 0;
+    padding: 0;
+}
+
+.main-tap-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-tap-link>a {
+    text-decoration: none;
+}
+
+.main-tap-link>a:hover {
+    text-decoration: underline;
+}
+
+.main-tap-link-li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.latest-nta {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    gap: .4vw;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.latest-nta-ul {
+    padding: 0;
+    margin: 0;
+    width: 96%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: .4vw;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.latest-nta-ul::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.latest-nta-ul ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.latest-nta-ul>a {
+    text-decoration: none;
+}
+
+.latest-nta-ul>a:hover {
+    text-decoration: 1px solid black underline;
+}
+
+.latest-nta-li {
+    list-style: disc;
+    display: flex;
+    align-items: flex-start;
+    gap: .3vw;
+    font-weight: bold;
+    color: brown;
+}
+
+.latest-nta-li>svg{
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+    color: black;
+    margin-top: 1px;
+}
+
+.latest-nta-li>div{
+    width: 94%;
+}
+

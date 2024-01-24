@@ -1,0 +1,20 @@
+.slide-section {
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/home/slide/slide-background.jpg");
+    gap: 2vw;
+}
+
+/* ------------------------------------------------ */
+
+@media only screen and (max-width: 770px) {
+    .slide-section {
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+    }
+}

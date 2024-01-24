@@ -1,0 +1,12 @@
+.about-latest{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.about-nta{
+    width: 40%;
+    height: 60%;
+}

@@ -1,0 +1,89 @@
+.upper-navlink{
+    height: 23%;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .8vw;
+}
+
+.upper-navlink>h4{
+    margin: 0;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    outline: 1px solid var(--blue-background) ;
+}
+
+.upper-navlink>h4:hover{
+    cursor: pointer;
+    background-color: var(--blue-background);
+    color: white;
+}
+
+.upper-navlink>a{
+    overflow: hidden;
+    height: 100%;
+}
+
+.upper-navlink>a>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navlinks-ul{
+    list-style: none;
+    /* height: 50%; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: .8vw;
+    
+}
+
+.navlinks-li{
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2vw;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.navlink-active{
+    color: black;
+}
+
+.navlink-dropdown{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3vw;
+}
+
+.navlink-dropdown:hover{
+    color: black;
+}
+
+.navlink-dropdown-active{
+    color: black;
+    display: flex;
+    align-items: center;
+}
