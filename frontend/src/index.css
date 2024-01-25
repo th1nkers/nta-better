@@ -1,4 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Arapey&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --blue-background: #012B55;
@@ -22,10 +24,6 @@ code {
   display: flex;
   flex-direction: column;
 }
-
-/* card ---------------------------------------- */
-
-
 
 
 /* button --------------------------------------- */

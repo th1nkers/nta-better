@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .tap-links {
@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    gap: 1vw;
 }
 
 .main-tap-link>a {
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     font-size: 1.2vw;
-    gap: .4vw;
+    gap: .8vw;
     padding: 0;
     padding-bottom: 1rem;
 }
@@ -52,7 +53,7 @@
     padding: 0;
     margin: 0;
     width: 96%;
-    height: 95%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: .4vw;
@@ -90,7 +91,7 @@
     width: 1.3rem !important;
     height: 1.3rem !important;
     color: black;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .latest-nta-li>div{

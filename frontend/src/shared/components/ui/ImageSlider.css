@@ -1,3 +1,13 @@
+.sub_footer_img{
+    margin: 0 1.5rem;
+    object-fit: contain;
+    height: 100%;
+}
+
+.sub_footer_img>img{
+    height: 2.5rem;
+}
+
 .image-slider {
     display: flex;
     flex-direction: row;
@@ -44,7 +54,7 @@
 
 .image-slider-content {
     height: 74%;
-    width: 20%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,51 +78,39 @@
 /* nta-exam------------------------ */
 
 .nta-exam-slider {
-    height: 100%;
+    height: 13.8rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 1vw;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    margin: 0 -4.1rem;
 }
 
 .nta-exam-slider>svg {
     font-size: 2rem;
 }
 
-.nta-exam-slider>svg:hover {}
-
-.nta-exam-image-slider {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    justify-content: flex-start;
-    overflow-x: auto;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-}
-
-.nta-exam-image-slider::-webkit-scrollbar {
-    width: 0.5em;
-}
-
-.nta-exam-image-slider::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
 .nta-exam-content {
-    background-color: rgb(231, 231, 231);
-    width: 15.5%;
-    flex: 0 0 auto;
+    outline: 1px solid gray;
+    width: 12%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: .6vw;
+    padding: .3vw;
     border-radius: 5px;
     gap: .4vw;
-    height: 89%;
+    height: 98%;
+    margin: 0 2px;
+}
+
+.nta-exam-content:hover {
+    outline: 2px solid black;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
 }
 
 .nta-exam-content>h3 {
@@ -121,23 +119,25 @@
     font-size: 1rem;
     width: 100%;
     color: white;
-    background-color: var(--blue-background);
+    background-color: var(--blue-background); /* Add the background color */
     text-align: center;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .nta-exam-content>img {
     height: 50%;
-    width: 100%;
+    width: 80%;
 }
 
 .nta-exam-content>h5 {
     margin: 0;
     padding: .1vw .4vw;
+    font-size: .6vw;
     font-weight: bold;
     color: white;
     background-color: var(--blue-background);
-
+    border-radius: 5px;
 }
 
 .nta-exam-content>p {
@@ -145,20 +145,4 @@
     margin: 0;
     font-size: 1vw;
     text-align: center;
-}
-
-/* ---------------------------------- */
-
-@keyframes scroll {
-    0% {
-        left: 0;
-    }
-
-    100% {
-        left: -100%;
-    }
-}
-
-.animate {
-    animation: scroll 15s linear infinite;
 }

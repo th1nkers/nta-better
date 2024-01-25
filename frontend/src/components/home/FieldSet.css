@@ -1,15 +1,17 @@
 .field-set {
     width: 100%;
-    height: 30rem;
+    height: 33rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.4vw;
+    background-image: url("../../assets/home/field/fieldSlide.png");
+    object-fit: cover;
 }
 
 .field-content {
     width: 60%;
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +22,8 @@
     margin: 0;
     padding: 0;
     font-size: 2vw;
+    font-weight: bold;
+    color: white;
 }
 
 .field-content-para {
@@ -33,6 +37,7 @@
     padding: 0;
     margin: 0;
     font-size: 1.2vw;
+    color: white;
 }
 
 .field-content-para>img {
@@ -41,13 +46,11 @@
     border-radius: 3px;
 }
 
-
 .field-category {
     height: 97%;
     display: flex;
     flex-direction: column;
     gap: .6vw;
-    /* background-color: gray; */
     border-radius: 10px;
     padding: 0.3rem;
     justify-content: center;
@@ -58,18 +61,16 @@
     border-radius: 15px;
     padding: .2rem;
     text-align: center;
-    outline: 1px solid gray;
+    outline: 1px solid white;
 }
 
 .field-header:hover {
     cursor: pointer;
-    box-shadow: 0 4px 0px var(--blue-background);
-    outline: 2px solid black;
+    outline: 2px solid white;
 }
 
 .field-header-active {
-    box-shadow: 0 4px 0px var(--blue-background);
-    outline: 2px solid black;
+    outline: 2px solid white;
 }
 
 .field-header>h5 {
@@ -80,6 +81,10 @@
 .field-header>img {
     height: 4rem;
     width: 4rem;
+}
+
+.field-header-active{
+    background-color: white;
 }
 
 .tooltip-hidden {

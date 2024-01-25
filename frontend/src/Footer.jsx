@@ -9,7 +9,7 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStore } from "react-icons/fa6";
 import { FaQuestion } from "react-icons/fa6";
 import { MdOutlineAppRegistration } from "react-icons/md";
-import education from "./assets/shared/footer/ministry-of-education.jpg";
+import education from "./assets/shared/footer/ministry-of-education.svg";
 import ImageSlider from "./shared/components/ui/ImageSlider";
 
 const FOOTER_DATA = [
@@ -65,20 +65,31 @@ const FOOTER_DATA = [
 ];
 
 const FOOTER_IMG_DATA = [
-  { subFooter: "https://nta.ac.in/img/footerlog-1.png" },
-  { subFooter: "https://nta.ac.in/img/footerlog-4.png" },
-  { subFooter: "https://nta.ac.in/img/footerlog-5.png" },
-  { subFooter: "https://nta.ac.in/img/footerlog-6.png" },
-  { subFooter: "https://nta.ac.in/img/moe1.png" },
-  { subFooter: "https://nta.ac.in/img/rti_logo.png" },
-  { subFooter: "https://nta.ac.in/img/datagov_logo.png" },
+  { imgPath: "https://nta.ac.in/img/footerlog-1.png" },
+  { imgPath: "https://nta.ac.in/img/footerlog-4.png" },
+  { imgPath: "https://nta.ac.in/img/footerlog-5.png" },
+  { imgPath: "https://nta.ac.in/img/footerlog-6.png" },
+  { imgPath: "https://nta.ac.in/img/moe1.png" },
+  { imgPath: "https://nta.ac.in/img/rti_logo.png" },
+  { imgPath: "https://nta.ac.in/img/datagov_logo.png" },
 ];
 
 const Footer = () => {
   return (
     <>
+      <div className="sub_footer">
+        <ImageSlider SIDEWAY_FOOTER SUBFooterData={FOOTER_IMG_DATA}/>
+      </div>
       <div className="footer">
-        {/* <img src={education} alt="ministry of education" /> */}
+        <div className="trademark">
+          <img
+            src={
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Government_of_India_logo.svg/1200px-Government_of_India_logo.svg.png"
+            }
+            alt="Govern. of India"
+          />
+          <h4>suryaXth1nkers ©2024</h4>
+        </div>
         <div className="quick-links">
           <h3>Contact</h3>
           <div className="footer-contact">
@@ -88,7 +99,6 @@ const Footer = () => {
             </p>
             <h5>011-69227700</h5>
             <h5>genadmin@nta.ac.in</h5>
-            <h4>suryaXth1nkers</h4>
           </div>
         </div>
         <div className="quick-links">

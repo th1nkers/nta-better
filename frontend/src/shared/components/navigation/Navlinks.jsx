@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { RiDropdownList } from "react-icons/ri";
 import appStore from "../../../assets/shared/nav/app-store.png";
@@ -7,10 +7,11 @@ import youtube from "../../../assets/shared/nav/youtube.png";
 import x from "../../../assets/shared/nav/x.png";
 import DropdownMenu from "../ui/DropdownMenu";
 import "./Navlinks.css";
+import { ScrollContext } from "../../context/scroll-to-context";
 
 const Navlinks = ({ navData }) => {
   const [dropdownVisibility, setDropdownVisibility] = useState({});
-  const navlinksUlRef = useRef(null);
+  const { scrollToContent } = useContext(ScrollContext);
 
   const handleDropdownToggle = (item) => {
     setDropdownVisibility((prevState) => {
@@ -59,7 +60,7 @@ const Navlinks = ({ navData }) => {
         >
           <img src={appStore} alt="nta-ios-app" />
         </Link>
-        <h4>Skip to main content</h4>
+        <h4 onClick={scrollToContent}>Skip to main content</h4>{" "}
       </div>
       <ul className="navlinks-ul">
         {navData.map((navItem) => (

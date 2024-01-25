@@ -11,7 +11,7 @@ const MainNavigation = () => {
     <div className="main-navigation">
       <div className="main-nav-logo">
         <img src={mahatmaGandhi} alt="150 years of Mahatma Gandhi ji" />
-        <img src={nta} alt="National Testing Agency" />
+        <img id="main_nta_logo" src={nta} alt="National Testing Agency" />
       </div>
       <div className="left-main-nav">
         <nav className="navlinks">

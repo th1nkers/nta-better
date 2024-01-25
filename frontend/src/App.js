@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {ScrollContextProvider} from "./shared/context/scroll-to-context";
 import HomePage from "./pages/Home";
 import Layout from "./Layout";
 
@@ -15,9 +16,9 @@ function App() {
   ])
 
   return (
-    <>
-      <RouterProvider router={router}/>
-    </>
+    <ScrollContextProvider>
+      <RouterProvider router={router} />
+    </ScrollContextProvider>
   );
 }
 

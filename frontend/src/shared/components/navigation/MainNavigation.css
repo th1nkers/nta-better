@@ -16,9 +16,15 @@
     overflow: hidden;
 }
 
+
 .main-nav-logo>img{
-    object-fit: cover;
-    height:60%;
+    object-fit: contain;
+    height:50%;
+}
+
+#main_nta_logo{
+    height: 95%;
+    width: 16rem;
 }
 
 .navlinks{

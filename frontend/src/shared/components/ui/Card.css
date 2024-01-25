@@ -6,7 +6,7 @@
     align-items: center;
     position: relative;
     width: 30rem;
-    height: 20rem;
+    height: 100%;
     border: 2px solid black;
     padding: 0.4vw;
 }
@@ -50,13 +50,13 @@
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
     transition: 0.35s ease all;
     overflow: hidden;
-    max-width: 22px;
+    max-width: 4vw;
 }
 .studio-button-icon {
     position: relative;
     display: flex;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 .studio-button-label {
     cursor: pointer;
