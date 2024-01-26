@@ -61,7 +61,7 @@ const NTA_EXAM_DATA = [
     },
 ]
 
-const NTAExam = () => {
+const NTAExam = ({ntaExamData}) => {
   return (
     <div className="nta-exam">
       <div className="text-4xl">National Testing Agency</div>
@@ -71,7 +71,7 @@ const NTAExam = () => {
         following domains:{" "}
       </p>
       <div className="nta-slide">
-      <ImageSlider SIDEWAY NTAExamData={NTA_EXAM_DATA}/>
+      {ntaExamData.length>0 && <ImageSlider SIDEWAY NTAExamData={ntaExamData}/>}
       </div>
     </div>
   );

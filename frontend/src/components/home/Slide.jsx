@@ -32,29 +32,29 @@ const SLIDE_DATA = [
   {
     imagePath: "https://nta.ac.in/img/Corna_Virus.jpg",
     link: "https://www.mygov.in/covid-19/?cbps=1",
-    contentImagePath: covid
+    contentImagePath: covid,
   },
   {
     imagePath: "https://nta.ac.in/img/covid19A.jpg",
     link: "https://www.mygov.in/covid-19/?cbps=1",
-    contentImagePath: covid
+    contentImagePath: covid,
   },
   {
     imagePath: "https://nta.ac.in/img/covid19B.jpg",
     link: "https://www.mygov.in/covid-19/?cbps=1",
-    contentImagePath: covid
+    contentImagePath: covid,
   },
   {
     imagePath: "https://nta.ac.in/img/covid_arogya.jpg",
     link: "https://www.mygov.in/covid-19/?cbps=1",
-    contentImagePath: aarogyaSetu
+    contentImagePath: aarogyaSetu,
   },
 ];
 
-const SlideSection = () => {
+const SlideSection = ({ slideData }) => {
   return (
     <div className="slide-section">
-      <ImageSlider slidesData={SLIDE_DATA} />
+      {slideData.length > 0 && <ImageSlider slidesData={slideData} />}
     </div>
   );
 };

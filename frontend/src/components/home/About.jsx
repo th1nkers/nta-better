@@ -27,20 +27,25 @@ const TAP_LINKS = [
   },
 ];
 
-const About = () => {
+const About = ({ tabLinks }) => {
   return (
     <div className="about-latest">
       <ul className="tap-links">
-        {TAP_LINKS.map((item) => {
-          return (
-            <Link key={item.link} to={item.link}>
-              <button className="button-17">{item.header}</button>
-            </Link>
-          );
-        })}
+        {tabLinks.length > 0 &&
+          tabLinks.map((item) => {
+            return (
+              <Link key={item.link} to={item.link}>
+                <button className="button-17">{item.header}</button>
+              </Link>
+            );
+          })}
       </ul>
       <div className="about-card">
-        <Card header={ABOUT_NTA.header} readMeLink="/about" para={ABOUT_NTA.para} />
+        <Card
+          header={ABOUT_NTA.header}
+          readMeLink="/about"
+          para={ABOUT_NTA.para}
+        />
       </div>
     </div>
   );

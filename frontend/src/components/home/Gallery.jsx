@@ -12,7 +12,7 @@ const NTA_GALLERY = [
   { imgPath: "https://nta.ac.in/img/Gallery/Gallery14.jpeg" },
 ];
 
-const Gallery = () => {
+const Gallery = ({ ntaGallery }) => {
   return (
     <>
       <div className="nta-gallery-section">
@@ -26,7 +26,7 @@ const Gallery = () => {
             showNavs={true}
             autoPlayDelay={true}
           /> */}
-          <ImageLayout galleryData={NTA_GALLERY}/>
+          {ntaGallery.length > 0 && <ImageLayout galleryData={ntaGallery} />}
         </div>
       </div>
     </>

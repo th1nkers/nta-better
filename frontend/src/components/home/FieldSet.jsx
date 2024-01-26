@@ -91,7 +91,7 @@ const FIELD_DETAIL = [
   },
 ];
 
-const FieldSet = () => {
+const FieldSet = ({ fieldDetail }) => {
   const [activeContent, setActiveContent] = useState(FIELD_DETAIL[0]);
 
   const handleOnClick = (item) => {
@@ -102,24 +102,27 @@ const FieldSet = () => {
   return (
     <div className="field-set">
       <div className="field-category">
-        {FIELD_DETAIL.map((item) => (
-          <div
-            key={item.header}
-            className={`field-header ${
-              activeContent === item ? "field-header-active" : ""
-            }`}
-            onClick={() => handleOnClick(item)}
-            data-tooltip-content={item.header}
-            data-tooltip-id="my-tooltip"
-          >
-            <img src={item.icon} alt={item.header + "-icon"} />
-            <Tooltip
-              id="my-tooltip"
-              className={activeContent === item ? "tooltip-hidden" : "tooltip-left"}
-              style={{ fontSize: "12px", padding: "4px" }}
-            />
-          </div>
-        ))}
+        {fieldDetail.length > 0 &&
+          fieldDetail.map((item) => (
+            <div
+              key={item.header}
+              className={`field-header ${
+                activeContent === item ? "field-header-active" : ""
+              }`}
+              onClick={() => handleOnClick(item)}
+              data-tooltip-content={item.header}
+              data-tooltip-id="my-tooltip"
+            >
+              <img src={process.env.REACT_APP_BASE_URL + item.icon} alt={item.header + "-icon"} />
+              <Tooltip
+                id="my-tooltip"
+                className={
+                  activeContent === item ? "tooltip-hidden" : "tooltip-left"
+                }
+                style={{ fontSize: "12px", padding: "4px" }}
+              />
+            </div>
+          ))}
       </div>
       <div className="field-content">
         <h3>{activeContent.header}</h3>

@@ -107,14 +107,22 @@ const ImageSlider = ({
           ))}
         </div>
         <img
-          src={slidesData[currentIndex].imagePath}
+          src={
+            slidesData[currentIndex].imagePath ||
+            process.env.REACT_APP_BASE_URL + slidesData[currentIndex].imagePath
+          }
           alt="amrit-mahotsav-highlight"
         />
       </div>
       <div className="image-slider-content">
         <Link to={slidesData[currentIndex].link}>
           <img
-            src={slidesData[currentIndex].contentImagePath || amritMahotsav}
+            src={
+              slidesData[currentIndex].contentImagePath
+                ? process.env.REACT_APP_BASE_URL +
+                  slidesData[currentIndex].contentImagePath
+                : amritMahotsav
+            }
             alt="amrit-mahotsav-content"
           />
         </Link>

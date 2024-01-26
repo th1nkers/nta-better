@@ -36,14 +36,15 @@ const ScrollList = ({ data, visibleItemsCount, scrollInterval }) => {
       onMouseLeave={handleMouseLeave}
       className="latest-nta-ul"
     >
-      {visibleItems.map((item, index) => (
-        <Link key={index} to={item.link}>
-          <li className="latest-nta-li">
-            <MdChromeReaderMode />
-            <div>{item.header}</div>
-          </li>
-        </Link>
-      ))}
+      {data.length > 0 &&
+        visibleItems.map((item, index) => (
+          <Link key={index} to={item.link}>
+            <li className="latest-nta-li">
+              <MdChromeReaderMode />
+              <div>{item.header}</div>
+            </li>
+          </Link>
+        ))}
     </ul>
   );
 };

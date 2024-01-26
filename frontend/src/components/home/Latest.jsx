@@ -90,12 +90,13 @@ const NTA_LATEST = [
   },
 ];
 
-const Latest = () => {
+const Latest = ({ntaLatest , mainTabLinks}) => {
+
   return (
     <div className="ImpNTA">
       <ul className="main-tap-link">
         <div className="text-xl text-gray-900">Suggested Content:</div>
-        {MAIN_TAP_LINKS.map((item) => {
+        {mainTabLinks.length>0 && mainTabLinks.map((item) => {
           return (
             <Link key={item.link} to={item.link}>
               <li className="main-tap-link-li text-sky-950">{item.header}</li>
@@ -118,7 +119,7 @@ const Latest = () => {
               );
             })} */}
             <ScrollList
-            data={NTA_LATEST}
+            data={ntaLatest}
             visibleItemsCount={6}
             scrollInterval={2000}
           />
