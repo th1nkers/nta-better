@@ -8,24 +8,6 @@ const ABOUT_NTA = {
   para: "National Testing Agency (NTA) has been established as a premier, specialist, autonomous and self-sustained testing organization to conduct entrance examinations for admission/fellowship in higher educational institutions. To assess competence of candidates for admissions and recruitment has always been a challenge in terms of matching with research based international standards, efficiency, transparency and error free delivery.",
 };
 
-const TAP_LINKS = [
-  {
-    header: "Active Examinations",
-    link: "hh",
-  },
-  {
-    header: "E-Certificate",
-    link: "https://ecertificate.nta.ac.in",
-  },
-  {
-    header: "Mock Test",
-    link: "https://nta.ac.in/Quiz",
-  },
-  {
-    header: "Abhyas",
-    link: "https://nta.ac.in/Abhyas",
-  },
-];
 
 const About = ({ tabLinks }) => {
   return (
@@ -43,7 +25,7 @@ const About = ({ tabLinks }) => {
       <div className="about-card">
         <Card
           header={ABOUT_NTA.header}
-          readMeLink="/about"
+          readMeLink="https://nta.ac.in/about"
           para={ABOUT_NTA.para}
         />
       </div>

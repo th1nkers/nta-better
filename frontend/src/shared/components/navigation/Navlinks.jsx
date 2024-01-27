@@ -6,8 +6,8 @@ import playStore from "../../../assets/shared/nav/play-store.png";
 import youtube from "../../../assets/shared/nav/youtube.png";
 import x from "../../../assets/shared/nav/x.png";
 import DropdownMenu from "../ui/DropdownMenu";
-import "./Navlinks.css";
 import { ScrollContext } from "../../context/scroll-to-context";
+import "./Navlinks.css";
 
 const Navlinks = ({ navData }) => {
   const [dropdownVisibility, setDropdownVisibility] = useState({});

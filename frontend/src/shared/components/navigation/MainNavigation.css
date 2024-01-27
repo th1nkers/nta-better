@@ -1,13 +1,12 @@
-.main-navigation{
+.main-navigation {
     padding: 0 1.5vw;
     height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
-.main-nav-logo{
+.main-nav-logo {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -17,17 +16,17 @@
 }
 
 
-.main-nav-logo>img{
+.main-nav-logo>img {
     object-fit: contain;
-    height:50%;
+    height: 50%;
 }
 
-#main_nta_logo{
+#main_nta_logo {
     height: 95%;
     width: 16rem;
 }
 
-.navlinks{
+.navlinks {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -35,10 +34,30 @@
     gap: .7vw;
 }
 
-.left-main-nav{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 1vw;
-height: 100%;
+.left-main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .left-main-nav {
+        display: none;
+    }
+
+    .main-nav-logo img:first-child {
+        display: none;
+    }
+
+    .main_nav_logo {
+        padding-left: 10px;
+    }
+
+    .main-navigation{
+        margin-bottom: 4px;
+        border-bottom: 1px solid #000;
+    }
 }

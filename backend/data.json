@@ -1,0 +1,240 @@
+{
+    "_id": {
+        "$oid": "65b32f310fc7d05f1009b013"
+    },
+    "slideData": [
+        {
+            "imagePath": "https://nta.ac.in/img/EVENTS/KYF/Picture1.jpg",
+            "link": "https://amritmahotsav.nic.in"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/EVENTS/KYF/Picture3.jpg",
+            "link": "https://amritmahotsav.nic.in"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/EVENTS/KYF/Picture4.jpg",
+            "link": "https://amritmahotsav.nic.in"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/Banner/cuet-banner.jpeg",
+            "link": "https://cuet.samarth.ac.in/",
+            "contentImagePath": "/home/slide/cuet.png"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/abhyas/NTA_banner.png",
+            "link": "https://nta.ac.in/Abhyas",
+            "contentImagePath": "/home/slide/nta.png"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/Corna_Virus.jpg",
+            "link": "https://www.mygov.in/covid-19/?cbps=1",
+            "contentImagePath": "/home/slide/covid.png"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/covid19A.jpg",
+            "link": "https://www.mygov.in/covid-19/?cbps=1",
+            "contentImagePath": "/home/slide/covid.png"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/covid19B.jpg",
+            "link": "https://www.mygov.in/covid-19/?cbps=1",
+            "contentImagePath": "/home/slide/covid.png"
+        },
+        {
+            "imagePath": "https://nta.ac.in/img/covid_arogya.jpg",
+            "link": "https://www.mygov.in/covid-19/?cbps=1",
+            "contentImagePath": "/home/slide/aarogya-setu.png"
+        }
+    ],
+    "tabLinks": [
+        {
+            "header": "Active Examinations",
+            "link": "/"
+        },
+        {
+            "header": "E-Certificate",
+            "link": "https://ecertificate.nta.ac.in"
+        },
+        {
+            "header": "Mock Test",
+            "link": "https://nta.ac.in/Quiz"
+        },
+        {
+            "header": "Abhyas",
+            "link": "https://nta.ac.in/Abhyas"
+        }
+    ],
+    "mainTabLinks": [
+        {
+            "header": "Content Based Lectures: For Jee Main and NEET-UG By IIT Professors / Subject Experts",
+            "link": "https://nta.ac.in/LecturesContent"
+        }
+    ],
+    "ntaLatest": [
+        {
+            "header": "Declaration of Result of Indian Institute of Technology Delhi Recruitment Exam (Non-Teaching Posts) 2023",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240125193647.pdf"
+        },
+        {
+            "header": "Second stage written examination for the Junior Assistant-cum-Typist (JAT) (IGNOU) 2023 advertised dated 21 March 2023",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240125193431.pdf"
+        },
+        {
+            "header": "Release of Admit Cards for the Candidates of JEE (Main) – 2024 Session 1 (January 2024) scheduled to appear on 27 January 2024 - Reg. ",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240125111055.pdf"
+        },
+        {
+            "header": "HIGH COURT OF UTTARAKHAND RECRUITMENT EXAMINATION - 2024 ",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240125104825.pdf"
+        },
+        {
+            "header": " Extension of Date of Registration for Common University Entrance Test [CUET(PG)] - 2024",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240125095554.pdf"
+        },
+        {
+            "header": " Release of Admit Cards for the Candidates of JEE (Main) – 2024 Session 1 (January 2024) scheduled to appear on 24 January 2024 (Paper 2) ",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240123174800.pdf"
+        },
+        {
+            "header": " Release of Admit Card for the Mains Examination (Paper I and Paper II) i.e. Phase 2 for the Post of Examiner of Patents and Designs ",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240123103253.pdf"
+        },
+        {
+            "header": "Declaration of results of UGC – NET December 2023",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240120204631.pdf"
+        },
+        {
+            "header": "Final Result of Assistant grade LDCE - 2018",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240121191355.pdf"
+        },
+        {
+            "header": "Display of Provisional Answer Key(s) and Question Paper with Recorded Responses for inviting Challenges to the Provisional Answer Key(s) of MNS: Selection for SSC 2023-24. ",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240118151659.pdf"
+        },
+        {
+            "header": " Schedule for Rani Lakshmi Bai Agriculture University, Jhansi and Datia Campus Recruitment of Non-Teaching posts 2023",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240118122008.pdf"
+        },
+        {
+            "header": "Final Result of Assistant grade LDCE - 2018",
+            "link": "https://nta.ac.in/Download/Notice/Notice_20240121191355.pdf"
+        }
+    ],
+    "ntaGallery": [
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery19.jpeg"
+        },
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery18.jpeg"
+        },
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery17.jpeg"
+        },
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery16.jpeg"
+        },
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery15.jpeg"
+        },
+        {
+            "imgPath": "https://nta.ac.in/img/Gallery/Gallery14.jpeg"
+        }
+    ],
+    "ntaExamData": [
+        {
+            "sortHeader": "JEE (MAIN)",
+            "imagePath": "https://nta.ac.in/img/logo/jee_logo.png",
+            "fieldHeader": "Engineering",
+            "header": "Joint Entrance Examination (MAIN)",
+            "link": "https://nta.ac.in/Engineeringexam"
+        },
+        {
+            "sortHeader": "GPAT",
+            "imagePath": "https://nta.ac.in/img/logo/aicte_logo.png",
+            "fieldHeader": "Pharmacy",
+            "header": "GRADUATE PHARMACY APTITUDE TEST",
+            "link": "https://nta.ac.in/Pharmacyexam"
+        },
+        {
+            "sortHeader": "CMAT",
+            "imagePath": "https://nta.ac.in/img/logo/aicte_logo.png",
+            "fieldHeader": "Management",
+            "header": "Common Management Admission Test",
+            "link": "https://nta.ac.in/Managementexam"
+        },
+        {
+            "sortHeader": "NCHM",
+            "imagePath": "https://nta.ac.in/img/logo/nchm_logo.png",
+            "fieldHeader": "Engineering",
+            "header": "National Council for Hotel Management Joint Entrance Examination",
+            "link": "https://nta.ac.in/HotelManagementexam"
+        },
+        {
+            "sortHeader": "NEET",
+            "imagePath": "https://nta.ac.in/img/logo/neet_logo.png",
+            "fieldHeader": "Medical",
+            "header": "National Eligibility-cum-Entrance Test",
+            "link": "https://nta.ac.in/medicalexam"
+        },
+        {
+            "sortHeader": "UGC (NET)",
+            "imagePath": "https://nta.ac.in/img/logo/ugc_logo.png",
+            "fieldHeader": "University",
+            "header": "National Eligibility Test",
+            "link": "https://nta.ac.in/collegeexam"
+        },
+        {
+            "sortHeader": "JNUEE",
+            "imagePath": "https://nta.ac.in/img/logo/jnu_logo.png",
+            "fieldHeader": "University",
+            "header": "Jawaharlal Nehru University Entrance Examination",
+            "link": "https://nta.ac.in/Jnuexam"
+        },
+        {
+            "sortHeader": "AISSEE",
+            "imagePath": "https://nta.ac.in/img/logo/Sainik_logo.jpg",
+            "fieldHeader": "Engineering",
+            "header": "Joint Entrance Examination (MAIN)",
+            "link": "https://exams.nta.ac.in/AISSEE/"
+        },
+        {
+            "sortHeader": "ICAR",
+            "imagePath": "https://nta.ac.in/img/logo/icar_logo.png",
+            "fieldHeader": "Agricultural",
+            "header": "Indian Council of Agricultural Research",
+            "link": "https://nta.ac.in/Icarexam"
+        }
+    ],
+    "fieldDetail": [
+        {
+            "icon": "/home/field/engineering.png",
+            "imgPath": "https://exploreengineering.ca/sites/default/files/2020-02/NEM_mechanical.jpg",
+            "header": "Engineering Exam",
+            "para": "Joint Entrance Examination (JEE) MAIN will be conducted by the NTA from 2019 onwards. This Examination was being conducted by the Central Board of Secondary Education (CBSE) till 2018. JEE Main is applicable for admission to NITs, IIITs and CFTIs participating though Central Seat Allocation Board subject to the condition that the candidate should have secured at least 75% marks in the 12th class examination, or be in the top 20 percentile in the 12th class examination conducted by the respective Boards. For SC/ST candidates the qualifying marks would be 65% in the 12thclass examination."
+        },
+        {
+            "icon": "/home/field/doctor.png",
+            "imgPath": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/media_bank/202310/5-essential-tips-for-aspiring-medical-students-050805393-16x9.jpg?VersionId=41Mf9d9tumaMmKYo9LiDFNf8hA2Wg5y0&size=690:388",
+            "header": "Medical Exam",
+            "para": "The National Eligibility Cum Entrance Test (NEET) UG will be conducted by the NTA from 2019 onwards. This Test was being conducted by the Central Board of Secondary Education (CBSE) till 2018. NEET (UG) is applicable for admission to MBBS/BDS Courses in India in Medical/Dental Colleges run with the approval of Medical Council of India/Dental Council of India under the Union Ministry of Health and Family Welfare, Government of India except for the institutions established through an Act of Parliament i.e. AIIMS and JIPMER Puducherry."
+        },
+        {
+            "icon": "/home/field/management.png",
+            "imgPath": "https://davidsummertonconsulting.files.wordpress.com/2020/01/management-group.jpg",
+            "header": "Management Exam",
+            "para": "Common Management Admission Test (CMAT) is a national level entrance examination for entry into management programmes. Till 2018, it was conducted by All India Council for Technical Education (AICTE) every year as per the directions of Ministry of Education (MoE), Government of India. The Test will now be conducted by the NTA. The CMAT is a three hour computer based online test which is conducted in a single session to evaluate the candidate's ability across various segments like Quantitative Technique, Logical Reasoning, Language Comprehension and General Awareness."
+        },
+        {
+            "icon": "/home/field/pharmacy.png",
+            "imgPath": "https://teltonika-networks.com/cdn/extras/13410/org-pharmacy-chain-connectivity.webp",
+            "header": "Pharmacy Exam",
+            "para": "GRADUATE PHARMACY APTITUDE TEST (GPAT) is a national level entrance examination for entry into M.Pharm programmes. Till 2018, it was conducted by All India Council for Technical Education (AICTE) every year as per the directions of Ministry of Education (MoE), Government of India. The Test will now be conducted by the NTA. "
+        },
+        {
+            "icon": "/home/field/teacher.png",
+            "imgPath": "https://umaine.edu/news/wp-content/uploads/sites/3/2016/02/LearningResearch-NewsFeature.jpg",
+            "header": "Teaching and Fellowship Exam",
+            "para": "On behalf of UGC, the National Eligibility Test (NET) is conducted for determining the eligibility of Indian nationals for the Eligibility for Assistant Professor only or Junior Research Fellowship & Eligibility for Assistant Professor Both in Indian Universities and Colleges. Till recently, the CBSE conducted the NET in 84 subjects at 91 selected Cities of spread across the country. "
+        }
+    ]
+}

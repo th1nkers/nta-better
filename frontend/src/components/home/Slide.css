@@ -11,10 +11,11 @@
 
 @media only screen and (max-width: 770px) {
     .slide-section {
-        height: 19rem;
-        display: flex;
+        height: fit-content;
+        width: 98%;
         flex-direction: column;
-        justify-content: center;
-        gap: 3vw;
+        align-items: flex-start;
+        background-image: none;
     }
+
 }

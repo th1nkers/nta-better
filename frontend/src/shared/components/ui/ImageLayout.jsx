@@ -6,8 +6,8 @@ const ImageLayout = ({ galleryData }) => {
     <section>
       {galleryData.map((item, index) => {
         return (
-          <div class="card">
-            <div class="card__img">
+          <div key={index} className="card">
+            <div className="card__img">
               <img src={item.imgPath} alt="nta-gallery" />
             </div>
           </div>

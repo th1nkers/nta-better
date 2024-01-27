@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { GoDotFill } from "react-icons/go";
 import amritMahotsav from "../../../assets/shared/nav/amrit-mahotsav.png";
-import "./ImageSlider.css";
 import Marquee from "react-fast-marquee";
+import "./ImageSlider.css";
 
 const ImageSlider = ({
   slidesData,
@@ -56,7 +56,7 @@ const ImageSlider = ({
       <Marquee autoFill={true}>
         {SUBFooterData.map((item, index) => {
           return (
-            <div className="sub_footer_img">
+            <div key={index} className="sub_footer_img">
               <img src={item.imgPath} alt="sub-footer-icon" />
             </div>
           );
@@ -70,9 +70,15 @@ const ImageSlider = ({
       <>
         <Marquee autoFill={true} speed={30} pauseOnHover={true}>
           <div className="nta-exam-slider">
-            {NTAExamData.map((item) => {
+            {NTAExamData.map((item, index) => {
               return (
-                <Link to={item.link} key={item.id} className="nta-exam-content">
+                <Link
+                  to={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={index}
+                  className="nta-exam-content"
+                >
                   <h3>{item.sortHeader}</h3>
                   <img src={item.imagePath} alt={item.sortHeader} />
                   <h5>{item.fieldHeader}</h5>
@@ -94,28 +100,39 @@ const ImageSlider = ({
         className="image-slider"
       >
         <div className="dot-array">
-          {slidesData.map((slide, slideIndex) => (
+          {slidesData.map((slide, index) => (
             <div
               className={
-                slideIndex === currentIndex ? "dotStyle-active" : "dotStyle"
+                index === currentIndex ? "dotStyle-active" : "dotStyle"
               }
-              key={slideIndex}
-              onClick={() => goToSlide(slideIndex)}
+              key={index}
+              onClick={() => goToSlide(index)}
             >
               <GoDotFill />
             </div>
           ))}
         </div>
-        <img
-          src={
-            slidesData[currentIndex].imagePath ||
-            process.env.REACT_APP_BASE_URL + slidesData[currentIndex].imagePath
-          }
-          alt="amrit-mahotsav-highlight"
-        />
+        <Link
+          to={slidesData[currentIndex].link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={
+              slidesData[currentIndex].imagePath ||
+              process.env.REACT_APP_BASE_URL +
+                slidesData[currentIndex].imagePath
+            }
+            alt="amrit-mahotsav-highlight"
+          />
+        </Link>
       </div>
       <div className="image-slider-content">
-        <Link to={slidesData[currentIndex].link}>
+        <Link
+          to={slidesData[currentIndex].link}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={
               slidesData[currentIndex].contentImagePath

@@ -1,11 +1,38 @@
-.about-latest{
+.about-latest {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 1.5vw;
+    width: 35%;
+    height: 32rem;
 }
 
-.about-card{
-    height: 77%;
+.about-card {
+    height: 74%;
+}
+
+@media only screen and (max-width:770px) {
+
+
+    .tap-links {
+        width: 98%;
+        overflow-x: auto;
+        height: 2.2rem;
+        padding-left: 4px;
+    }
+
+    .about-latest {
+        gap: .5rem;
+        height: unset;
+        width: unset;
+        flex-direction: column-reverse;
+    }
+
+    .about-card {
+        height: 20rem;
+        width: 98%;
+    }
+
+    
 }

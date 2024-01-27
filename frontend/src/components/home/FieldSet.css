@@ -1,6 +1,6 @@
 .field-set {
     width: 100%;
-    height: 33rem;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,16 +21,21 @@
 .field-content>h3 {
     margin: 0;
     padding: 0;
-    font-size: 2vw;
+    font-size: 2.4rem;
     font-weight: bold;
     color: white;
 }
 
 .field-content-para {
-    height: 85%;
-    object-fit: cover;
+    /* height: 80%; */
     gap: 1vw;
     overflow-y: auto;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: .8vw;
 }
 
 .field-content-para>p {
@@ -38,11 +43,14 @@
     margin: 0;
     font-size: 1.2vw;
     color: white;
+    margin-bottom: 1rem;
+    width: 60%;
+    /* height: 100%; */
 }
 
 .field-content-para>img {
-    width: 50%;
-    height: 64%;
+    width: 38%;
+    height: 90%;
     border-radius: 3px;
 }
 
@@ -61,7 +69,7 @@
     border-radius: 15px;
     padding: .2rem;
     text-align: center;
-    outline: 1px solid white;
+    outline: 1px solid rgba(255, 255, 255, 0.682);
 }
 
 .field-header:hover {
@@ -79,14 +87,56 @@
 }
 
 .field-header>img {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
-.field-header-active{
+.field-header-active {
     background-color: white;
 }
 
 .tooltip-hidden {
     display: none !important;
-  }
+}
+
+@media only screen and (max-width:770px) {
+    .field-set {
+        flex-direction: column-reverse;
+        gap: 2.5vw;
+        height: 28rem;
+    }
+
+    .field-content{
+        height: 20rem;
+        width: 90%;
+    }
+
+    .field-content-para{
+        flex-direction: column;
+        height: 90%;
+        border-bottom: 3px solid white;
+    }
+
+    .field-content>h3{
+        font-size: 2rem;
+    }
+
+    .field-content-para>img{
+        object-fit: cover;
+        height:10rem;
+        width: 100%;
+    }
+
+    .field-content-para>p{
+        width: 100%;
+        text-align: justify;
+        font-size: .9rem;
+    }
+
+    .field-category{
+        flex-direction: row;
+        height: 4rem;
+        gap: .4rem;
+    }
+
+}

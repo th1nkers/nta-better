@@ -1,5 +1,6 @@
 .ImpNTA {
     width: 45%;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,3 +99,39 @@
     width: 94%;
 }
 
+@media only screen and (max-width:770px){
+    .ImpNTA{
+        width: 92%;
+        align-self: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.5rem;
+        height: 26rem;
+    }
+
+    .main-tap-link{
+        /* width: 80%; */
+    }
+
+    .main-tap-link-li{
+        font-size: 1rem;
+    }
+
+    .latest-nta{
+        width: 90%;
+        gap: .8rem;
+    }
+
+    .latest-nta-ul{
+        width: 100%;
+        gap: .6rem;
+    }
+
+    .latest-nta-li{
+        gap: .4rem;
+    }
+
+    .latest-nta-li>div{
+        font-size: 1rem;
+    }
+}

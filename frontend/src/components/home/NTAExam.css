@@ -25,3 +25,52 @@
     border-radius: 10px;
     padding: .6rem;
 }
+
+@media only screen and (max-width:770px){
+    .nta-exam{
+        width: 92%;
+        height: fit-content;
+    }
+
+    #nta_exam_header{
+        font-size: 2rem;
+    }
+
+    .nta-exam>p{
+        width: 90%;
+        font-size: .9rem;
+    }
+
+    .nta-slide{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .nta-exam-slider{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .nta-exam-content{
+        height: 9rem;
+        width: 8rem;
+        margin: 3px;
+    }
+
+    .nta-exam-content>h3{
+        font-size: .6rem;
+    }
+
+    .nta-exam-content>img{
+        height: 30%;
+        width: 100%;
+    }
+
+    .nta-exam-content>h5{
+        font-size: .5rem;
+    }
+
+    .nta-exam-content>p{
+        font-size: .6rem;
+    }
+}

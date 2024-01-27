@@ -25,6 +25,27 @@ code {
   flex-direction: column;
 }
 
+.no-mobile{
+  display: unset;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .no-mobile{
+    display: none;
+  }
+
+  .mobile{
+    display: unset;
+  }
+
+  .layout{
+    gap: 0rem;
+  }
+}
 
 /* button --------------------------------------- */
 
@@ -62,6 +83,19 @@ code {
   z-index: 0;
 }
 
+@media only screen and (max-width:770px){
+  .button-17 {
+    width: fit-content;
+    max-width: unset;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: bold;
+    padding: 7px 5px;
+    height: fit-content;
+  }
+  
+}
+
 .button-17:hover {
   background: #F6F9FE;
   color: var(--blue-background);
@@ -96,3 +130,5 @@ code {
 .button-17:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
+
+

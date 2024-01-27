@@ -10,31 +10,31 @@ export const NAVLINKS_DATA = [
     dropdown: [
       {
         header: "About NTA",
-        link: "/about",
+        link: "https://nta.ac.in/about",
       },
       {
         header: "Vision",
-        link: "/vision",
+        link: "https://nta.ac.in/Vision",
       },
       {
         header: "Objective",
-        link: "/objective",
+        link: "https://nta.ac.in/object",
       },
       {
         header: "Functions",
-        link: "/functions",
+        link: "https://nta.ac.in/functions",
       },
       {
         header: "General Body",
-        link: "/governing",
+        link: "https://nta.ac.in/governing",
       },
       {
         header: "Strategic Plan",
-        link: "/strategic-plan",
+        link: "https://nta.ac.in/StrategicPlan",
       },
       {
         header: "Team NTA",
-        link: "/team-nta",
+        link: "https://nta.ac.in/Teamnta",
       },
     ],
   },
@@ -166,26 +166,26 @@ export const NAVLINKS_DATA = [
   {
     id: "n5",
     header: "Action Agenda",
-    link: "/research",
+    link: "https://nta.ac.in/Research",
   },
   {
     id: "n6",
     header: "RTI",
-    link: "/rti",
+    link: "https://nta.ac.in/RTI",
   },
   {
     id: "n7",
     header: "Tender",
-    link: "/tender",
+    link: "https://nta.ac.in/Tender",
   },
   {
     id: "n9",
     header: "Downloads",
-    link: "/downloads",
+    link: "https://nta.ac.in/Downloads",
   },
   {
     id: "n10",
     header: "Contact Us",
-    link: "contact-up",
+    link: "https://nta.ac.in/ContactUs",
   },
 ];

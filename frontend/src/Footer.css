@@ -1,4 +1,5 @@
-.sub_footer{
+.sub_footer {
+    width: 100%;
     height: 4rem;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
@@ -16,23 +17,23 @@
     color: rgba(245, 245, 245, 0.741);
 }
 
-.trademark{
-width: 14%;
+.trademark {
+    width: 14%;
 }
 
-.trademark>h4{
+.trademark>h4 {
     color: white;
     text-align: end;
 }
 
-.trademark>img{
+.trademark>img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
     object-fit: contain;
-    /* color: white; */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.897);
     margin-bottom: 8px;
+    padding: 8px;
 }
 
 .quick-links {
@@ -44,31 +45,32 @@ width: 14%;
     gap: 1vw;
 }
 
-.quick-links>h3{
+.quick-links>h3 {
     color: white;
     display: flex;
     gap: 0.4vw;
     align-items: center;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 
-.footer-contact{
+.footer-contact {
     display: flex;
     flex-direction: column;
     gap: .4rem;
 }
 
-.footer-contact>h4{
+.footer-contact>h4 {
     color: white;
 }
 
-.footer-contact>p{
+.footer-contact>p {
     padding: 0;
     margin: 0;
 }
-.footer-contact>h5{
+
+.footer-contact>h5 {
     padding: 0;
     margin: 0;
 }
@@ -106,7 +108,39 @@ width: 14%;
     width: 1rem;
 }
 
-.footer-image-layout{
+.footer-image-layout {
     height: 80%;
     width: 30%;
+}
+
+@media screen and (max-width: 770px){
+
+    .sub_footer{
+        height: 3rem;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        height: unset;
+        padding: 1rem 0;
+    }
+
+    .quick-links {
+        width: 90%;
+        height: 12rem;
+        gap: 1vw;
+    }
+
+    .trademark {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .trademark>img {
+        width: 40%;
+        height: 100%;
+        border-radius: 5px;
+    }
 }
